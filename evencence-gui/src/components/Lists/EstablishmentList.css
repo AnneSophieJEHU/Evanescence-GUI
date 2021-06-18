@@ -1,0 +1,172 @@
+.titleManagerEstab {
+	margin-bottom: 40px;
+	padding: 15px 15px 15px 15px;
+	text-align: center;
+	color: #00284d;
+	background: linear-gradient(270deg, rgba(55,221,228,1) 0%, rgba(255,255,255,1) 50%, rgba(55,221,228,1) 100%);
+	box-shadow: 0px 0 10px rgba(0, 0, 0, 0.3);
+}
+.imperativeWord{
+	text-align: center;
+	color: #ff0000;
+	font-size: 20px;
+}
+.introImperative {
+	text-align: center;
+	margin: 10px 50px 30px 50px;
+	color: #00284D;
+	font-size: 18px;
+}
+.blockInfoManager {
+	margin: 5px 5px 5px 5px;
+	padding: 20px 55px 30px 40px;
+	color: #00284d;
+	font-size: 20px;
+}
+.onScreen {
+	color: #00284d;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.liManager {
+	padding-left: 25px;
+	color: #00284d;
+	font-size: 18px;
+	font-weight: normal;
+}
+.btnAddPaginationTopBlock {
+	display: flex;
+	justify-content: space-between;
+}
+.addBtn {
+	border-radius: 20px;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #0278a7;
+	border: none;
+}
+.pagination {
+	height: auto;
+	text-align: right;
+}
+.paginationBlock {
+	display: flex; 
+    justify-content: space-between;
+}
+.emptyDiv {
+	text-align: left;
+}
+table { 
+	table-layout: fixed;
+    width: 100%; 
+	border-collapse: collapse;
+}
+tr:nth-of-type(odd) { 
+    background: #eee;
+}
+th { 
+    background: #ffffff; 
+	color: #00284d;
+	font-size: 20px; 
+	font-weight: bold;
+}
+td {
+	font-size: 18px;
+	color: #00284d;
+}
+th, td { 
+    padding: 6px; 
+    border: 1px solid rgb(255, 255, 255); 
+	text-align: left; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border: 2px solid #d8d8d8;
+	word-wrap: break-word;
+}
+tr:hover {background: linear-gradient(270deg, rgba(55,221,228,1) 0%, rgba(255,255,255,1) 50%, rgba(55,221,228,1) 100%);}
+
+.btnTabsEstab {
+	padding: 10px 10px 10px 10px;
+	background-color: #0278a7;
+	border: none;
+	border-radius: 20px;
+}
+
+@media only screen 
+	and (max-width: 1200px), (min-device-width: 1200px) 
+    and (max-device-width: 1024px) {
+.btnAddPaginationTopBlock {
+	display: block;
+	justify-content: space-between;
+}
+.addBtn {
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #0278a7;
+	border: none;
+}
+.pagination {
+	text-align: left;
+}
+table, thead, tbody, th, td, tr { 
+	display: block;
+	border: none;
+}
+thead tr { 
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+tr {
+	padding : 0px;
+	border: 2px solid #ccc;
+}
+th, td {
+	height: auto;
+	font-size: 16px;
+}
+td { 
+	border: none;
+	position: relative;
+    padding-left: 50%;
+}
+tbody td {
+	border: none;
+}
+.paginationBlock {
+	display: table; 
+    justify-content: space-between;
+}
+.emptyDiv {
+	text-align: left;
+}
+.pagination {
+	height: auto;
+	text-align: right;
+}
+td:before { 
+	display: inline-block;
+	left: 2px;
+	width: 65%; 
+	padding-right: 30px; 
+	white-space: nowrap;
+}
+
+td:nth-of-type(1):before { content: "Raison sociale"; font-weight: bold;}
+td:nth-of-type(2):before { content: "N° siret"; font-weight: bold;}
+td:nth-of-type(3):before { content: "Rue, avenue, allée"; font-weight: bold;}
+td:nth-of-type(4):before { content: "Complément d'adresse"; font-weight: bold;}
+td:nth-of-type(5):before { content: "Code postal"; font-weight: bold;}
+td:nth-of-type(6):before { content: "Ville"; font-weight: bold;}
+td:nth-of-type(7):before { content: "E-mail"; font-weight: bold;}
+td:nth-of-type(8):before { content: "N° de téléphone"; font-weight: bold;}
+td:nth-of-type(9):before { content: "N° client"; font-weight: bold;}
+td:nth-of-type(10):before { content: "Date début contrat"; font-weight: bold;}
+td:nth-of-type(11):before { content: "Date fin contrat"; font-weight: bold;}
+td:nth-of-type(12):before { content: "Modifier"; font-weight: bold;}
+td:nth-of-type(13):before { content: "Supprimer"; font-weight: bold;}
+}

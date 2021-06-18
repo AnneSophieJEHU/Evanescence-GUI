@@ -1,0 +1,159 @@
+.allBlockForm {
+    width: 1700px;
+    height: 1000px;
+    overflow: hidden;
+    margin: 30px auto 30px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+}
+.leftCreateformBlockEstab {
+    width: 850px;
+    height: 1000px;
+    float: left;
+    position: relative;
+    display: block;
+}
+.backgroundCreateformBlock {
+    width: 100%;
+    height: 100%;
+}
+.imageCreateEstab{
+    background-image: url("../../assets/seniorsLifeStyleSet.png");
+    width: 90%;
+    height: 90%;
+    padding-top: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 55px 75px 40px 50px;
+}
+.rightCreateFormBlockEstab {
+   width: 850px;
+   height: 1000px;
+   float: right;
+}
+.titleFormEstab {
+    margin: 0 20px 0 20px;
+    margin-bottom: 15px;
+	padding: 15px 15px 15px 15px;
+	text-align: center;
+	color: #00284d;
+	background: linear-gradient(270deg, rgba(55,221,228,1) 0%, rgba(255,255,255,1) 50%, rgba(55,221,228,1) 100%);
+	box-shadow: 0px 0 10px rgba(0, 0, 0, 0.3);
+}
+.imperativeWord {
+    margin-top: 5px;
+}
+.insertData {
+    font-size: 16px;
+}
+.legend {
+    margin: 0 0 15px 0;
+}
+.formBlock {
+    height: 100%;
+    margin: 0 20px 0 20px;
+    padding: 2% 0 3% 6%;
+    -webkit-box-shadow: inset 0px 0px 6px -1px rgba(0,0,0,0.59);
+    -moz-box-shadow: inset 0px 0px 6px -1px rgba(0,0,0,0.59);
+    box-shadow: inset 0px 0px 6px -1px rgba(0,0,0,0.59);
+}
+.formGroupBlock, FormGroup {
+    display: grid;
+    grid-template-columns: 1fr 0.9fr;
+    padding: 15px 15px 15px 15px;
+}
+.inputSBox {
+    width: 90%;
+    height: 55px;
+    border : 1.2px solid #c7c7c7;
+    border-radius: 4px;
+    padding: 0 4px 0 4px;
+}
+label {
+    margin-bottom: 10px;
+    width: auto;
+    color: #00284d;
+    font-weight: bold;
+}
+input {
+    width: auto;
+    height: auto;
+    display: block;
+}
+.errorMsgFormEstab {
+    width: auto;
+    margin-top: 5px;
+    color: #ff0000;
+}
+.btnCancelSave {
+    display: inline-block;
+}
+.btnFormEstab {
+    text-align: right;
+    margin-right: 70px;
+    padding-top: 25px;
+}
+.backBtn {
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 20px;
+}
+.saveBtn {
+    margin: 0 0 0 30px;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    background-color: #0278a7;
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 1600px){
+    .allBlockForm {
+        height: 90%;
+        width: 100%;
+        box-shadow: none;
+    }
+    .leftCreateformBlockEstab {
+        display: none;
+    }
+    .rightCreateFormBlockEstab {
+        width: 100%;
+        height: auto;
+        float: initial;
+    }
+    .formBlock {
+        margin: 0 10px 10px 10px;
+    }
+
+}
+
+@media screen and (max-width: 870px){
+    .formGroupBlock{
+        display: block;
+        padding: 0;
+    }
+    .allBlockForm {
+        width: 100%;
+        height: 90%;
+        height: auto;
+        box-shadow: none;
+    }
+    .leftCreateformBlockEstab {
+        display: none;
+    }
+    .rightCreateFormBlockEstab {
+        height: auto;
+        width: 100%;
+        float: initial;
+    }
+    .btnFormEstab {
+        display: inline-block;
+        text-align: center;
+        padding-right: 20px;
+    }
+}

@@ -1,0 +1,92 @@
+/*test! I don't understand what happen with the connection button*/
+.authBox {
+    width: 844px;
+    overflow: hidden;
+    margin: 80px auto 30px;
+    margin-bottom: 100px;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.leftBox {
+    width: 422px;
+    height: 500px;
+    float: left;
+    position: relative;
+    display: block;
+}
+
+.backgroundLeftBox {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(farthest-corner at 50% 30%, rgba(55,221,228,1) 30%, rgba(255,255,255,1) 90%);
+}
+
+.imageAuth {
+    background-image: url("../../assets/onlinequestionnaire.png");
+    width: 100%;
+    height: 70%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.imageText {
+    font-size: 28px;
+    position: absolute;
+    color: #ffffff;
+}
+
+.imageText.bold {
+    font-weight: bold;
+}
+
+.imageText.style1 {
+    top: 130px;
+    color: #00284d;
+    font-size: 15px;
+    text-align: center;
+    left: 130px;
+}
+
+.imageText.style2 {
+    font-size: 20px;
+    font-style: italic;
+    color: #00284d;
+    margin-top: 170px;
+    padding-left: 15px;
+    padding-right: 20px;
+    text-align: center;
+    top: 150px;
+    bottom: 100px;
+}
+
+.rightBox {
+    width: 422px;
+    height: 500px;
+    float: right;
+    padding-left : 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+@media screen and ( max-width:767px ) {
+    .authBox {
+        width: 100%;
+        box-shadow: none;
+    }
+    .leftBox {
+        display: none;
+    }
+    .rightBox {
+        width: 100%;
+        float: initial;
+        margin-top: 50px;
+        padding-right: 30px;
+    }
+    
+}

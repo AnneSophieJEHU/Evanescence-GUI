@@ -1,0 +1,99 @@
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: linear-gradient(270deg, rgba(55,221,228,1) 0%, rgba(255,255,255,1) 50%, rgba(55,221,228,1) 100%);
+  box-shadow: 0px 0 10px #00284D;
+  align-items: center;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+}
+
+.logoImg {
+  width: 120px;
+  height: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 3px 3px 3px 3px;
+  background: linear-gradient(270deg, rgba(55,221,228,1) 0%, rgba(255,255,255,1) 50%, rgba(55,221,228,1) 100%);;
+}
+
+.iconProfileImg {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.groupBar {
+  padding: 1px;
+  margin: 8px;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.barProfil {
+  color: #00284D;
+  font-size: 16px;
+  background: transparent;
+  margin-left: 19px;
+}
+
+.logoBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  height: 0px;
+  overflow: hidden;
+}
+
+.showNav {
+  height: auto;
+  text-align: center;
+}
+
+ul li a {
+  color: #00284D;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  font-size: 16px;
+  transition: all 0.5 ease;
+}
+
+@media screen and ( min-width: 768px ) {
+  nav {
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  ul li {
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    padding:5px;
+  }
+  li {
+    padding: 10px 10px 10px 10px;
+  }
+ 
+  ul li :hover {
+    text-decoration: none;
+    color: #00284D;
+  }
+}
